@@ -1,0 +1,18 @@
+HOW TO ADD GALLERY IMAGES
+
+1. Copy your new photo into the images folder.
+   Example: images/new-room-photo.webp
+
+2. Open gallery.html.
+
+3. Search for: GALLERY IMAGE CONTROL
+
+4. Add one new line inside GALLERY_IMAGES:
+   { src: "images/new-room-photo.webp", alt: "Description of the photo for SEO" },
+
+5. Save the file.
+
+Notes:
+- Do not edit the gallery HTML layout.
+- The gallery is created automatically from the GALLERY_IMAGES list.
+- Images are shown in full with their natural aspect ratio, not cropped.

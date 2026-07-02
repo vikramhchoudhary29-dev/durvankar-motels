@@ -1,0 +1,12 @@
+ROOM IMAGE CHANGE GUIDE
+
+Open index.html and search: ROOM IMAGE CONTROL
+
+Change only these 4 lines:
+--room-deluxe-image: url('images/deluxe-ac-room.webp');
+--room-family-image: url('images/family-room.webp');
+--room-standard-image: url('images/standard-room.webp');
+--room-bungalow-image: url('images/durvankar-property.webp');
+
+Keep your new image inside the images folder and update only the filename.
+No UI/CSS/layout changes are needed.
