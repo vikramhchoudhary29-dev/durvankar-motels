@@ -1,0 +1,27 @@
+DURVANKAR MOTELS — VERCEL DEPLOYMENT
+
+This folder is ready to deploy as a static Vercel project.
+
+Project settings:
+- Framework Preset: Other
+- Build Command: leave empty
+- Output Directory: leave empty (project root)
+
+Custom domains:
+1. Add durvankarmotels.in and www.durvankarmotels.in to the same project.
+2. Make durvankarmotels.in the production domain.
+3. Redirect www.durvankarmotels.in permanently to durvankarmotels.in.
+4. Use only the DNS records Vercel displays for this project.
+5. Test the Vercel preview before replacing the current Netlify DNS records.
+
+Expected URLs:
+- https://durvankarmotels.in/
+- https://durvankarmotels.in/gallery
+- https://durvankarmotels.in/robots.txt
+- https://durvankarmotels.in/sitemap.xml
+
+After switching DNS, confirm that the apex URL returns 200 and the www URL
+redirects once to the apex URL. Then test https://durvankarmotels.in in Justdial.
+
+The migration may improve consistency, but it cannot guarantee that Justdial's
+validator will accept the domain.
